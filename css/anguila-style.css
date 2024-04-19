@@ -70,6 +70,7 @@ main {
 section {
     border: 1px solid #FF9900;
     padding: 20px;
+    border-color: #FF9900;
 }
 
 
