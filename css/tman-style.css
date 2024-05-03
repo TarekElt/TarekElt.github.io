@@ -132,7 +132,7 @@ p, li {
 }
 
 .work-category .image-grid img {
-    max-width: 40%; /* Reduce the max-width to 40% */
+    max-width: 20%; /* Reduce the max-width to 40% */
     width: auto; /* Maintain the aspect ratio */
     padding: 20px;
 }
