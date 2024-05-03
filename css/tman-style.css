@@ -7,32 +7,32 @@ body {
     font-family: "Titillium Web", "Roboto Condensed", "Helvetica", "Arial", sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevents horizontal scroll */
+    overflow-x: hidden; 
 }
 
 /* All heading tags centered and with increased font sizes */
 h1, h2, h3, h4, h5, h6 {
-    text-align: center; /* Centers all headings */
-    font-size: 150%; /* Increases font size by 20% */
+    text-align: center; 
+    font-size: 150%; 
 }
 
 header {
     background-color: #a30404;
     color: #fff;
-    padding: 10px 0; /* Adjusted padding */
-    font-size: 24px; /* Specific font size for header */
+    padding: 10px 0; 
+    font-size: 24px; 
 }
 
 /* Sticky Navigation */
 nav {
     background-color: #f4f4f4;
-    padding: 5px 0; /* Adjusted padding */
-    width: 100%; /* Ensures the nav spans the full width of the viewport */
-    position: sticky; /* Sticky positioning */
-    top: 0; /* Keeps nav at the top of the viewport */
-    z-index: 1010; /* Ensures nav is above other content */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds shadow for depth */
-    border-bottom: 1px solid #ccc; /* Subtle border for definition */
+    padding: 5px 0; 
+    width: 100%; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1010; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    border-bottom: 1px solid #ccc; 
 }
 
 nav ul {
@@ -44,19 +44,19 @@ nav ul {
 }
 
 nav ul li {
-    margin: 5px 10px; /* Spacing between menu items */
+    margin: 5px 10px; 
 }
 
 nav ul li a, footer a {
     text-decoration: none;
     color: #333;
-    font-size: 14px; /* Smaller font size */
-    padding: 8px 12px; /* Adjusted padding */
-    background-color: #e8e8e8; /* Light grey background */
-    border: 1px solid #ccc; /* Grey border */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for 3D effect */
-    display: block; /* Makes the link fill the li element */
+    font-size: 14px; 
+    padding: 8px 12px; 
+    background-color: #e8e8e8; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+    display: block; 
 }
 
 nav ul li a:link, footer a:link {
@@ -64,7 +64,7 @@ nav ul li a:link, footer a:link {
 }
 
 nav ul li a:visited, footer a:visited {
-    color: #a30404; /* Purple for visited links */
+    color: #a30404; 
 }
 
 nav ul li a:hover, footer a:hover {
@@ -83,11 +83,11 @@ main {
 
 #introduction {
     margin-bottom: 40px;
-    background-color: #f9f9f9; /* Light background similar to navigation */
-    border: 1px solid #ccc; /* Subtle border like navigation */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
-    padding: 15px; /* Padding around content */
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    padding: 15px; 
 }
 
 #introduction .creator-info img {
@@ -99,7 +99,7 @@ main {
 
 /* Text content styling for optimal reading */
 p, li {
-    max-width: 960px; /* Limit width for readability, approx 60 characters */
+    max-width: 960px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -107,21 +107,21 @@ p, li {
 /* Box styling for wood and ink image categories */
 .work-category {
     margin-bottom: 40px;
-    background-color: #f9f9f9; /* Light background similar to navigation */
-    border: 1px solid #ccc; /* Subtle border like navigation */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
-    padding: 15px; /* Padding around content */
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    padding: 15px; 
 }
 
 .ink-image {
     margin-bottom: 40px;
-    background-color: #f9f9f9; /* Light background similar to navigation */
-    border: 1px solid #ccc; /* Subtle border like navigation */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
-    padding: 15px; /* Padding around content */
-    text-align: center; /* Center aligns images */
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    padding: 15px; 
+    text-align: center; 
 }
 
 .work-category .image-grid, .ink-image .image-grid {
@@ -132,8 +132,8 @@ p, li {
 }
 
 .work-category .image-grid img {
-    max-width: 20%; /* Reduce the max-width to 40% */
-    width: auto; /* Maintain the aspect ratio */
+    max-width: 20%; 
+    width: auto; 
     padding: 20px;
 }
 
@@ -162,8 +162,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    font-size: 16px; /* Increased font size for better readability */
-    z-index: 1000; /* Ensure the footer is above other content */
+    font-size: 16px; 
+    z-index: 1000; 
 }
 
 @media (max-width: 768px) {
